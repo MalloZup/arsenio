@@ -70,7 +70,8 @@ func initConfig() {
 
 		// Search config in home directory with name ".here" (without extension).
 		viper.AddConfigPath(home)
-		viper.SetConfigName(".here")
+		viper.AddConfigPath(".")
+		viper.SetConfigName(".arsenio")
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match
