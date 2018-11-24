@@ -10,7 +10,7 @@ Arsenio will be a gentle golang bot, providing utilty to maintainers to opensour
 
 # Goals: 
 
-For the first version, the goal is to ping authors with a message on the issue/PR they forgot since XX months. (default could be 2 months).
+For the first version, the goal is to ping the authors of PRs/ISSUe with a message on the issue/PR they forgot since XX months. (default could be 2 months).
 
 Further versions can include remind on issues that were due to a previous milestone. ( this can be usefull for Release Manager or Scrum-master, or any project working with GitHub milestone/scrums).
 
