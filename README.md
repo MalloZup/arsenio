@@ -2,11 +2,13 @@
 
 Gentle stale bot for GitHub Issues and PullRequests.
 
-# Description
+# Description:
 
-History: when you work on middle-big project people create issues and PRs but then after a while this are in a stale forgot status.
+History: when you work on middle-big project people create issues and PRs but then after a while people do something else or they simply forget about the issue or PR for some reason.
 
 Arsenio will be a gentle golang bot, providing utilty to maintainers to opensource projects, for respecting roadmaps, milestones and timing.
+
+# Goals: 
 
 For the first version, the goal is to ping authors with a message on the issue/PR they forgot since XX months. (default could be 2 months).
 
