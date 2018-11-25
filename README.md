@@ -2,6 +2,13 @@
 
 Gentle stale bot for GitHub Issues and PullRequests.
 
+
+# Technical choices, architecture:
+
+Arsenio use the GitHub GraphQL API v4 (https://developer.github.com/v4/),  https://github.com/shurcooL/githubv4.
+For the command line https://github.com/spf13/cobra and viper.
+
+
 # Description:
 
 History: when you work on middle-big project people create issues and PRs but then after a while people do something else or they simply forget about the issue or PR for some reason.
