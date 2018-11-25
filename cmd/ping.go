@@ -2,8 +2,9 @@ package cmd
 
 import (
 	"fmt"
-
+	"github.com/shurcooL/githubv4"
 	"github.com/spf13/cobra"
+	"golang.org/x/oauth2"
 )
 
 func init() {
@@ -15,6 +16,11 @@ var pingCmd = &cobra.Command{
 	Short: "write message reminder for issues/prs forgotten since XX time",
 	Long:  `ping authors with reminder`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("ping authors WIP")
+		src := oauth2.StaticTokenSource(
+			&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
+		)
+		httpClient := oauth2.NewClient(context.Background(), src)
+
+		gitHubCli := githubv4.NewClient(httpClient)
 	},
 }
