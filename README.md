@@ -1,7 +1,7 @@
 # arsenio
 
-Gentle stale bot for GitHub Issues and PullRequests.
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/MalloZup/arsenio)](https://goreportcard.com/report/github.com/MalloZup/arsenio)  [![GoDoc](https://godoc.org/github.com/MalloZup/arsenio?status.svg)](https://godoc.org/github.com/MalloZup/arsenio)
+Beauty and minimalistic golang bot for GitHub  opensource projects
 
 # Technical choices, architecture:
 
