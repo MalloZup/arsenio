@@ -1,7 +1,9 @@
 # arsenio
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/MalloZup/arsenio)](https://goreportcard.com/report/github.com/MalloZup/arsenio)  [![GoDoc](https://godoc.org/github.com/MalloZup/arsenio?status.svg)](https://godoc.org/github.com/MalloZup/arsenio)
-Beauty and minimalistic golang bot for GitHub  opensource projects
+___
+Arsenio: always in search of the Beauty and minimalistic design. Golang bot for GitHub  opensource projects.
+___
 
 # Technical choices, architecture:
 
