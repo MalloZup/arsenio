@@ -1,9 +1,13 @@
 package cmd
 
 import (
+	"context"
 	"fmt"
+	"os"
+
 	"github.com/shurcooL/githubv4"
 	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 	"golang.org/x/oauth2"
 )
 
@@ -20,7 +24,7 @@ var pingCmd = &cobra.Command{
 			&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
 		)
 		httpClient := oauth2.NewClient(context.Background(), src)
-
-		gitHubCli := githubv4.NewClient(httpClient)
+		_ = githubv4.NewClient(httpClient)
+		fmt.Printf("GITHUB_TOKEN:%s", viper.Get("GITHUB_TOKEN"))
 	},
 }
