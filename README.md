@@ -67,6 +67,8 @@ Arsenio use the GitHub GraphQL API v4 (https://developer.github.com/v4/),  https
 For the command line https://github.com/spf13/cobra and viper.
 
 
+Project layout: https://github.com/golang-standards/project-layout
+
 This project use go modules, you will need latest golang version.
 
 # Contribute:
