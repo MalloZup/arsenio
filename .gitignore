@@ -15,5 +15,5 @@
 arsenio
 
 # conf files
-*.yaml
+*.yml
 *.txt
