@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	gitHubAuth "github.com/MalloZup/arsenio/internal/auth"
+	gitHubAuth "github.com/MalloZup/arsenio/pkg/auth"
 	"github.com/shurcooL/githubv4"
 	"github.com/spf13/cobra"
 )
