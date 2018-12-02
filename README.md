@@ -12,6 +12,10 @@ History: when you work on middle-big project people create issues and PRs but th
 Arsenio will be a gentle golang bot, providing utilty to maintainers to opensource projects, for respecting roadmaps, milestones and timing.
 
 
+# Roadmap:
+
+Arsenio is under active dev. see https://github.com/MalloZup/arsenio/milestones
+
 # Howto:
 
 ## Installation
@@ -39,7 +43,6 @@ GITHUB_TOKEN: mytokenGithub
 ./arsenio ping
 ```
  
-# Roadmap: 
 
 ## Goals: 
 
